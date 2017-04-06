@@ -1,0 +1,18 @@
+name: locest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.5
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - shapely
+  - rtree
+  - pytest
+  - jupyter
+  - pip:
+    - luigi
+    - geopy
+    - csvkit
